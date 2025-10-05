@@ -1,0 +1,94 @@
+.dialog-container[b-ekrnxfpdlv] {
+    position: fixed; /* cover viewport reliably */
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex; /* activate flex centering */
+    justify-content: center; /* center horizontally */
+    align-items: center; /* center vertically */
+    background-color: rgba(0,0,0,0.5);
+    z-index: 2000;
+    animation: dialog-container-entry-b-ekrnxfpdlv 0.2s;
+}
+
+@keyframes dialog-container-entry-b-ekrnxfpdlv {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+.dialog[b-ekrnxfpdlv] {
+    width: 900px;
+    max-height: calc(100% - 3rem);
+    box-shadow: 0 0 12px rgba(0,0,0,0.6);
+    display: flex;
+    flex-direction: column;
+    animation: dialog-entry-b-ekrnxfpdlv 0.4s cubic-bezier(0.075, 0.820, 0.165, 1.000);
+    /* remove align-self, margin:auto, you don’t need them */
+}
+
+@keyframes dialog-entry-b-ekrnxfpdlv {
+    0% {
+        transform: translateY(30px) scale(0.95);
+    }
+
+    100% {
+        transform: translateX(0px) scale(1.0);
+    }
+}
+
+.dialog-title[b-ekrnxfpdlv] {
+    background-color: #444;
+    color: #fff2cc;
+    padding: 1.3rem 2rem;
+}
+
+    .dialog-title h2[b-ekrnxfpdlv] {
+        color: white;
+        font-size: 1.4rem;
+        margin: 0;
+        font-family: 'Bahnschrift', Arial, Helvetica, sans-serif;
+        text-transform: uppercase;
+        line-height: 1.3rem;
+    }
+
+.dialog-body[b-ekrnxfpdlv] {
+    flex-grow: 1;
+    padding: 0.5rem 3rem 1rem 0;
+}
+
+.dialog-buttons[b-ekrnxfpdlv] {
+    height: 4rem;
+    flex-shrink: 0;
+    display: flex;
+    align-items: center;
+    background-color: #eee;
+    padding: 0 1rem;
+}
+
+.dialog-body > div[b-ekrnxfpdlv] {
+    display: flex;
+    margin-top: 1rem;
+    align-items: center;
+}
+
+.dialog-body label[b-ekrnxfpdlv] {
+    text-align: right;
+    width: 200px;
+    margin: 0 1.5rem;
+}
+
+.dialog-body input[b-ekrnxfpdlv], .dialog-body select[b-ekrnxfpdlv] {
+    flex-grow: 1;
+    width: unset;
+}
+
+.dialog-body .size-label[b-ekrnxfpdlv] {
+    min-width: 110px;
+    text-align: right;
+}

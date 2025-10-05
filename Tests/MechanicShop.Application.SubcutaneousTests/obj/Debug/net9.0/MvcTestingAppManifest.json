@@ -1,0 +1,9 @@
+{
+  "MechanicShop.Api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "C:\\Users\\FujiTsu\\Desktop\\MechanicShop\\src\\MechanicShop.Api",
+  "MechanicShop.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "C:\\Users\\FujiTsu\\Desktop\\MechanicShop\\src\\MechanicShop.Application",
+  "MechanicShop.Client, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "C:\\Users\\FujiTsu\\Desktop\\MechanicShop\\src\\MechanicShop.Client",
+  "MechanicShop.Contracts, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "C:\\Users\\FujiTsu\\Desktop\\MechanicShop\\src\\MechanicShop.Contracts",
+  "MechanicShop.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "C:\\Users\\FujiTsu\\Desktop\\MechanicShop\\src\\MechanicShop.Domain",
+  "MechanicShop.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "C:\\Users\\FujiTsu\\Desktop\\MechanicShop\\src\\MechanicShop.Infrastructure",
+  "MechanicShop.Tests.Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "C:\\Users\\FujiTsu\\Desktop\\MechanicShop\\Tests\\MechanicShop.Tests.Common"
+}

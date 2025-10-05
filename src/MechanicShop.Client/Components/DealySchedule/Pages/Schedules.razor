@@ -1,0 +1,110 @@
+﻿@implements IDisposable
+@page "/schedules/{SelectedDate:datetime?}"
+
+@attribute [Authorize]
+
+
+<div class="mb-3 row">
+    <h3 class="col-3 border-start border-5 p-1">
+        <i class="bi bi-calendar2-range mx-2"></i>Daily Schedule
+    </h3>
+    <div class="col-1">
+        <button class="btn btn-outline-info opacity-75" disabled="@_isLoading" @onclick="GoToPreviousDay">
+            <i class="bi bi-chevron-left"></i>
+        </button>
+    </div>
+    <div class="col-4">
+        <InputDate Type="InputDateType.Date"
+                   @bind-Value="_selectedDate"
+                   class="form-control"
+                   id="dayScheduleDate"
+                   @onchange="OnDateChanged"
+                   disabled="@_isLoading" />
+    </div>
+    <div class="col-1">
+        <button class="btn btn-outline-info opacity-75" @onclick="GoToNextDay" disabled="@_isLoading">
+            <i class="bi bi-chevron-right"></i>
+        </button>
+    </div>
+    <div class="col-3">
+        <select @bind="_selectedLaborId" @bind:after="UpdateDaySchedule" class="form-select" disabled="@_isLoading">
+            <option value=""> -- Select Labor --</option>
+            @if (_labors?.Any() == true)
+            {
+                foreach (var labor in _labors)
+                {
+                    <option value="@labor.LaborId"> @labor.Name </option>
+                }
+            }
+        </select>
+    </div>
+</div>
+
+<div class="container position-relative overflow-x-hidden" style="min-height: 100vh;">
+    @if (GetNowLinePosition() >= 0)
+    {
+        <div id="nowLineTarget" style="position: absolute; top: @($"{GetNowLinePosition()}%"); left: 0; right: 0; z-index: 10;">
+            <div id="now-line" style="border-top: 2px dashed red; width: 100%;position: relative; opacity: 0.8;">
+                <span style="
+                position: absolute;
+                top: -1.2rem;
+                right: 0.5rem;
+                font-size: 0.75rem;
+                color: red;
+                font-weight: bold;">
+                    @DateTime.Now.ToString("HH:mm")
+                </span>
+            </div>
+        </div>
+    }
+
+
+    <div class="overflow-hidden">
+        <div class="row mb-2">
+            <div class="col-1"></div>
+            @foreach (var spot in _schedule.Spots)
+            {
+                <div class="col text-center">
+                    <SpotComponent Spot="spot.Spot" />
+                </div>
+            }
+        </div>
+
+        <div class="row">
+            @if (operateHours is not null)
+            {
+                <div class="col-1 pe-0">
+                    @foreach (var time in GenerateTimeSlots())
+                    {
+                        <TimeSlotMarker Time="time" />
+                    }
+                </div>
+                @foreach (var spot in _schedule.Spots)
+                {
+                    <div class="col ps-0">
+                        @foreach (var slot in spot.Slots)
+                        {
+
+                            var closingTime = _selectedDate.Add(operateHours.ClosingTime.ToTimeSpan());
+                            if (slot.EndAt > closingTime)
+                            {
+                                slot.EndAt = closingTime;
+                            }
+                            <AvailabilitySlotComponent Slot="slot"
+                            OnDeleteWorkOrder="DeleteWorkOrder"
+                            OnNewWorkOrderDialog="() => ShowNewWorkOrderDialog(slot)"
+                            OnEditWorkOrderLaborDialog="() => ShowEditLaborDialog(slot)"
+                            OnEditWorkOrderRepairTasksDialog="() => ShowEditRepairTasksDialog(slot)"
+                            OnEditWorkOrderStateDialog="() => ShowEditStateDialog(slot)"
+                            OnRelocateWorkOrderDialog="() => ShowRelocateWorkOrderDialog(slot)" />
+                        }
+                    </div>
+                }
+            }
+        </div>
+    </div>
+</div>
+
+<TemplatedDialog Show="_showDialog" OnClose="HideDialog" Title="_dialogTitle" Meta="_dialogMeta">
+    @_activeDialogContent
+</TemplatedDialog>

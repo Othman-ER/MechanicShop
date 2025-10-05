@@ -1,0 +1,33 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\FujiTsu\\Desktop\\MechanicShop\\src\\MechanicShop.Api\\wwwroot\\app.css",
+      "PackagePath": "staticwebassets\\app.css"
+    },
+    {
+      "Id": "C:\\Users\\FujiTsu\\Desktop\\MechanicShop\\src\\MechanicShop.Api\\wwwroot\\favicon.png",
+      "PackagePath": "staticwebassets\\favicon.png"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.MechanicShop.Api.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.MechanicShop.Api.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.build.MechanicShop.Api.props",
+      "PackagePath": "build\\MechanicShop.Api.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.buildMultiTargeting.MechanicShop.Api.props",
+      "PackagePath": "buildMultiTargeting\\MechanicShop.Api.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.buildTransitive.MechanicShop.Api.props",
+      "PackagePath": "buildTransitive\\MechanicShop.Api.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

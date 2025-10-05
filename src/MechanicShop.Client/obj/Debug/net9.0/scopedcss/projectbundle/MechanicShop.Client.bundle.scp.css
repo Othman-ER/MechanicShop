@@ -1,0 +1,603 @@
+/* /Components/Dashboard.razor.rz.scp.css */
+.dashboard-header[b-l7qyfmtdjr] {
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.card[b-l7qyfmtdjr] {
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+    transition: transform 0.2s ease-in-out;
+    height: 100%; /* Ensure cards in a row have equal height */
+}
+
+    .card:hover[b-l7qyfmtdjr] {
+        transform: translateY(-5px);
+    }
+
+.card-body[b-l7qyfmtdjr] {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.card-title[b-l7qyfmtdjr] {
+    font-size: 1.1rem;
+    font-weight: 600;
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+}
+
+    .card-title i[b-l7qyfmtdjr] {
+        margin-right: 10px;
+        font-size: 1.4rem;
+        color: #6c757d; /* Default icon color */
+    }
+
+.card-text[b-l7qyfmtdjr] {
+    font-size: 2.2rem;
+    font-weight: 700;
+    color: #aaa;
+    line-height: 1;
+}
+
+.card-subtitle[b-l7qyfmtdjr] {
+    font-size: 0.9rem;
+    color: #6c757d;
+    margin-top: 5px;
+}
+/* Specific icon colors */
+.card-total i[b-l7qyfmtdjr] {
+    color: #0d6efd;
+}
+/* Blue */
+.card-Scheduled i[b-l7qyfmtdjr] {
+    color: #ffc107;
+}
+/* Yellow */
+.card-in-progress i[b-l7qyfmtdjr] {
+    color: #17a2b8;
+}
+/* Teal */
+.card-completed i[b-l7qyfmtdjr] {
+    color: #28a745;
+}
+/* Green */
+.card-cancelled i[b-l7qyfmtdjr] {
+    color: #dc3545;
+}
+/* Red */
+.card-revenue i[b-l7qyfmtdjr] {
+    color: #6f42c1;
+}
+/* Purple */
+.card-cost i[b-l7qyfmtdjr] {
+    color: #fd7e14;
+}
+/* Orange */
+.card-profit i[b-l7qyfmtdjr] {
+    color: #20c997;
+}
+/* Mint */
+.card-vehicles i[b-l7qyfmtdjr] {
+    color: #6610f2;
+}
+/* Indigo */
+.card-customers i[b-l7qyfmtdjr] {
+    color: #e83e8c;
+}
+/* Pink */
+.card-rate i[b-l7qyfmtdjr] {
+    color: #0dcaf0;
+}
+/* Cyan */
+.card-average i[b-l7qyfmtdjr] {
+    color: #6c757d;
+}
+/* Gray */
+
+.section-title[b-l7qyfmtdjr] {
+    font-size: 1.8rem;
+    font-weight: 600;
+    margin-bottom: 25px;
+    border-bottom: 2px solid #e9ecef;
+    padding-bottom: 10px;
+    color: #495057;
+}
+
+/* Responsive adjustments for card text */
+@media (max-width: 767.98px) {
+    .card-text[b-l7qyfmtdjr] {
+        font-size: 1.8rem;
+    }
+
+    .card-title[b-l7qyfmtdjr] {
+        font-size: 1rem;
+    }
+
+        .card-title i[b-l7qyfmtdjr] {
+            font-size: 1.2rem;
+        }
+}
+/* /Components/DealySchedule/AvailabilitySlotComponent.razor.rz.scp.css */
+.booking-container[b-mgu382ilmb] {
+    position: relative;
+}
+
+.booking-overlay[b-mgu382ilmb] {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.05); /* light overlay to show clickable area */
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+    z-index: 10;
+    pointer-events: none;
+}
+
+.booking-container:hover .booking-overlay[b-mgu382ilmb] {
+    opacity: 1;
+    pointer-events: auto;
+}
+
+.booking-container.unavailable[b-mgu382ilmb] {
+    cursor: not-allowed;
+}
+/* /Components/DealySchedule/EditWorkOrderStateDialog.razor.rz.scp.css */
+/* Dark Theme Progress Tracker Styles */
+.progress-tracker[b-24bf06rayt] {
+    position: relative;
+    width: 100%;
+}
+
+/* Progress Lines */
+.progress-line-background[b-24bf06rayt] {
+    position: absolute;
+    left: 16px; /* Half of circle width (32px) */
+    right: 16px; /* Half of circle width (32px) */
+    height: 3px;
+    background: rgba(255, 255, 255, 0.2); /* Light gray for dark theme */
+    border-radius: 2px;
+    z-index: 1;
+}
+
+.progress-line-active[b-24bf06rayt] {
+    position: absolute;
+    left: 16px; /* Half of circle width (32px) */
+    height: 3px;
+    background: linear-gradient(90deg, #28a745, #20c997); /* Green gradient */
+    border-radius: 2px;
+    z-index: 2;
+    transition: width 0.3s ease;
+}
+
+.progress-line-background[b-24bf06rayt],
+.progress-line-active[b-24bf06rayt] {
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+/* Step Wrapper */
+.step-wrapper[b-24bf06rayt] {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    z-index: 3;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    padding: 8px;
+    border-radius: 8px;
+}
+
+    .step-wrapper:hover:not(.step-disabled)[b-24bf06rayt] {
+        background: rgba(255, 255, 255, 0.1);
+        transform: translateY(-2px);
+    }
+
+    .step-wrapper.step-disabled[b-24bf06rayt] {
+        cursor: not-allowed;
+        opacity: 0.5;
+    }
+
+/* Step Circles */
+.step-circle[b-24bf06rayt] {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 8px;
+    transition: all 0.3s ease;
+    border: 2px solid transparent;
+}
+
+/* Completed Step */
+.step-completed[b-24bf06rayt] {
+    background: #28a745; /* Green background */
+    color: white;
+    border-color: #28a745;
+    box-shadow: 0 0 0 4px rgba(40, 167, 69, 0.2);
+}
+
+.step-current[b-24bf06rayt] {
+    background: #28a745; /* Green background */
+    border: 3px solid #28a745 !important; /* Green border */
+    box-shadow: 0 0 0 4px rgba(40, 167, 69, 0.3);
+    animation: pulse-b-24bf06rayt 2s infinite;
+}
+
+.step-current-dot[b-24bf06rayt] {
+    width: 12px;
+    height: 12px;
+    background: #1e7e34; /* darker green */
+    border-radius: 50%;
+}
+
+/* Upcoming Step */
+.step-upcoming[b-24bf06rayt] {
+    background: rgba(255, 255, 255, 0.1); /* Semi-transparent white */
+    border: 2px solid rgba(255, 255, 255, 0.3);
+}
+
+    .step-upcoming:hover[b-24bf06rayt] {
+        background: rgba(255, 255, 255, 0.2);
+        border-color: rgba(255, 255, 255, 0.5);
+    }
+
+.step-upcoming-dot[b-24bf06rayt] {
+    width: 8px;
+    height: 8px;
+    background: rgba(255, 255, 255, 0.6);
+    border-radius: 50%;
+}
+
+/* Step Labels */
+.step-label[b-24bf06rayt] {
+    font-size: 12px;
+    font-weight: 500;
+    text-align: center;
+    min-width: 60px;
+    transition: all 0.2s ease;
+}
+
+.label-completed[b-24bf06rayt] {
+    color: #28a745; /* Green text */
+    font-weight: 600;
+}
+
+.label-current[b-24bf06rayt] {
+    color: #28a745 !important;
+    font-weight: 700;
+    text-shadow: 0 0 8px rgba(40, 167, 69, 0.5);
+}
+
+.label-upcoming[b-24bf06rayt] {
+    color: rgba(255, 255, 255, 0.7); /* Light gray text */
+}
+
+.step-wrapper:hover:not(.step-disabled) .label-upcoming[b-24bf06rayt] {
+    color: rgba(255, 255, 255, 0.9);
+}
+
+/* Disabled State */
+.step-disabled .step-circle[b-24bf06rayt] {
+    background: rgba(255, 255, 255, 0.05) !important;
+    border-color: rgba(255, 255, 255, 0.1) !important;
+    box-shadow: none !important;
+}
+
+.step-disabled .step-label[b-24bf06rayt] {
+    color: rgba(255, 255, 255, 0.3) !important;
+}
+
+/* Pulse Animation for Current Step */
+@keyframes pulse-b-24bf06rayt {
+    0% {
+        box-shadow: 0 0 0 4px rgba(40, 167, 69, 0.3);
+    }
+
+    50% {
+        box-shadow: 0 0 0 8px rgba(40, 167, 69, 0.1);
+    }
+
+    100% {
+        box-shadow: 0 0 0 4px rgba(40, 167, 69, 0.3);
+    }
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .step-circle[b-24bf06rayt] {
+        width: 28px;
+        height: 28px;
+    }
+
+    .step-label[b-24bf06rayt] {
+        font-size: 11px;
+        min-width: 50px;
+    }
+
+    .step-wrapper[b-24bf06rayt] {
+        padding: 6px;
+    }
+}
+/* /Components/DealySchedule/Pages/Schedules.razor.rz.scp.css */
+.blur-effect[b-gfovppmtb2] {
+    filter: blur(4px); /* Adjust the blur intensity as needed */
+    pointer-events: none; /* Prevent user interaction while loading */
+    opacity: 0.5; /* Optional: lower opacity for a better effect */
+}
+/* /Components/LandingPage.razor.rz.scp.css */
+.section-padding[b-2sxdiniymj] {
+    padding: 80px 0;
+}
+
+.section-title[b-2sxdiniymj] {
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.feature-icon[b-2sxdiniymj] {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+.card[b-2sxdiniymj] {
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+    transition: transform 0.2s ease-in-out;
+    height: 100%; /* Ensure cards in a row have equal height */
+}
+
+    .card:hover[b-2sxdiniymj] {
+        transform: translateY(-5px);
+    }
+
+.card-body[b-2sxdiniymj] {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.card-title[b-2sxdiniymj] {
+    font-size: 1.1rem;
+    font-weight: 600;
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+}
+
+    .card-title i[b-2sxdiniymj] {
+        margin-right: 10px;
+        font-size: 1.4rem;
+    }
+
+.card-text-dashboard[b-2sxdiniymj] { /* Renamed to avoid conflict */
+    font-size: 2.2rem;
+    font-weight: 700;
+    line-height: 1;
+}
+
+@media (max-width: 767.98px) {
+    .section-title[b-2sxdiniymj] {
+        font-size: 2rem;
+    }
+
+    .card-text-dashboard[b-2sxdiniymj] {
+        font-size: 1.8rem;
+    }
+
+    .card-title[b-2sxdiniymj] {
+        font-size: 1rem;
+    }
+
+        .card-title i[b-2sxdiniymj] {
+            font-size: 1.2rem;
+        }
+}
+/* /Components/Layout/MainLayout.razor.rz.scp.css */
+.page[b-d209wfxl4f] {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+main[b-d209wfxl4f] {
+    flex: 1;
+}
+
+.sidebar[b-d209wfxl4f] {
+    background-image: linear-gradient(180deg, rgb(5, 39, 103) 0%, #3a0647 70%);
+}
+
+.top-row[b-d209wfxl4f] {
+    background-color: #f7f7f7;
+    border-bottom: 1px solid #d6d5d5;
+    justify-content: flex-end;
+    height: 3.5rem;
+    display: flex;
+    align-items: center;
+}
+
+    .top-row[b-d209wfxl4f]  a, .top-row[b-d209wfxl4f]  .btn-link {
+        white-space: nowrap;
+        margin-left: 1.5rem;
+        text-decoration: none;
+    }
+
+        .top-row[b-d209wfxl4f]  a:hover, .top-row[b-d209wfxl4f]  .btn-link:hover {
+            text-decoration: underline;
+        }
+
+        .top-row[b-d209wfxl4f]  a:first-child {
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+
+@media (max-width: 640.98px) {
+    .top-row[b-d209wfxl4f] {
+        justify-content: space-between;
+    }
+
+        .top-row[b-d209wfxl4f]  a, .top-row[b-d209wfxl4f]  .btn-link {
+            margin-left: 0;
+        }
+}
+
+@media (min-width: 641px) {
+    .page[b-d209wfxl4f] {
+        flex-direction: row;
+    }
+
+    .sidebar[b-d209wfxl4f] {
+        width: 250px;
+        height: 100vh;
+        position: sticky;
+        top: 0;
+    }
+
+    .top-row[b-d209wfxl4f] {
+        position: sticky;
+        top: 0;
+        z-index: 1;
+    }
+
+        .top-row.auth[b-d209wfxl4f]  a:first-child {
+            flex: 1;
+            text-align: right;
+            width: 0;
+        }
+
+    .top-row[b-d209wfxl4f], article[b-d209wfxl4f] {
+        padding-left: 2rem !important;
+        padding-right: 1.5rem !important;
+    }
+}
+/* /Components/ReparTasks/RepairTaskList.razor.rz.scp.css */
+.task-card[b-xk1c46jz2a] {
+    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+}
+
+    .task-card:hover[b-xk1c46jz2a] {
+        transform: translateY(-2px);
+        box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
+    }
+
+.parts-preview[b-xk1c46jz2a] {
+    max-height: 120px;
+    overflow-y: auto;
+}
+
+.btn-check:checked + .btn-outline-secondary[b-xk1c46jz2a] {
+    background-color: var(--bs-secondary);
+    border-color: var(--bs-secondary);
+    color: var(--bs-white);
+}
+
+@media (max-width: 768px) {
+    .task-card[b-xk1c46jz2a] {
+        margin-bottom: 1rem;
+    }
+}
+/* /Components/TemplatedDialog.razor.rz.scp.css */
+.dialog-container[b-ekrnxfpdlv] {
+    position: fixed; /* cover viewport reliably */
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex; /* activate flex centering */
+    justify-content: center; /* center horizontally */
+    align-items: center; /* center vertically */
+    background-color: rgba(0,0,0,0.5);
+    z-index: 2000;
+    animation: dialog-container-entry-b-ekrnxfpdlv 0.2s;
+}
+
+@keyframes dialog-container-entry-b-ekrnxfpdlv {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+.dialog[b-ekrnxfpdlv] {
+    width: 900px;
+    max-height: calc(100% - 3rem);
+    box-shadow: 0 0 12px rgba(0,0,0,0.6);
+    display: flex;
+    flex-direction: column;
+    animation: dialog-entry-b-ekrnxfpdlv 0.4s cubic-bezier(0.075, 0.820, 0.165, 1.000);
+    /* remove align-self, margin:auto, you don’t need them */
+}
+
+@keyframes dialog-entry-b-ekrnxfpdlv {
+    0% {
+        transform: translateY(30px) scale(0.95);
+    }
+
+    100% {
+        transform: translateX(0px) scale(1.0);
+    }
+}
+
+.dialog-title[b-ekrnxfpdlv] {
+    background-color: #444;
+    color: #fff2cc;
+    padding: 1.3rem 2rem;
+}
+
+    .dialog-title h2[b-ekrnxfpdlv] {
+        color: white;
+        font-size: 1.4rem;
+        margin: 0;
+        font-family: 'Bahnschrift', Arial, Helvetica, sans-serif;
+        text-transform: uppercase;
+        line-height: 1.3rem;
+    }
+
+.dialog-body[b-ekrnxfpdlv] {
+    flex-grow: 1;
+    padding: 0.5rem 3rem 1rem 0;
+}
+
+.dialog-buttons[b-ekrnxfpdlv] {
+    height: 4rem;
+    flex-shrink: 0;
+    display: flex;
+    align-items: center;
+    background-color: #eee;
+    padding: 0 1rem;
+}
+
+.dialog-body > div[b-ekrnxfpdlv] {
+    display: flex;
+    margin-top: 1rem;
+    align-items: center;
+}
+
+.dialog-body label[b-ekrnxfpdlv] {
+    text-align: right;
+    width: 200px;
+    margin: 0 1.5rem;
+}
+
+.dialog-body input[b-ekrnxfpdlv], .dialog-body select[b-ekrnxfpdlv] {
+    flex-grow: 1;
+    width: unset;
+}
+
+.dialog-body .size-label[b-ekrnxfpdlv] {
+    min-width: 110px;
+    text-align: right;
+}

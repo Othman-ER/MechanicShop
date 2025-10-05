@@ -1,0 +1,12 @@
+﻿@page "/"
+
+<PageTitle>Home</PageTitle>
+
+<AuthorizeView>
+    <Authorized>
+        <Dashboard />
+    </Authorized>
+    <NotAuthorized>
+        <LandingPage />
+    </NotAuthorized>
+</AuthorizeView>

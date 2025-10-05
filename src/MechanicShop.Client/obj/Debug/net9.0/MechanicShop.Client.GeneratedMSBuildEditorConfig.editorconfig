@@ -1,0 +1,133 @@
+is_global = true
+build_property.EnableAotAnalyzer = 
+build_property.EnableSingleFileAnalyzer = 
+build_property.EnableTrimAnalyzer = false
+build_property.IncludeAllContentForSelfExtract = 
+build_property.TargetFramework = net9.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = false
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = browser
+build_property.RootNamespace = MechanicShop.Client
+build_property.RootNamespace = MechanicShop.Client
+build_property.ProjectDir = C:\Users\FujiTsu\Desktop\MechanicShop\src\MechanicShop.Client\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = false
+build_property.RazorLangVersion = 9.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\FujiTsu\Desktop\MechanicShop\src\MechanicShop.Client
+build_property._RazorSourceGeneratorDebug = 
+build_property.EffectiveAnalysisLevelStyle = 9.0
+build_property.EnableCodeStyleSeverity = 
+
+[C:/Users/FujiTsu/Desktop/MechanicShop/src/MechanicShop.Client/Components/Accounts/Login.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xBY2NvdW50c1xMb2dpbi5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/FujiTsu/Desktop/MechanicShop/src/MechanicShop.Client/Components/Accounts/Logout.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xBY2NvdW50c1xMb2dvdXQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/FujiTsu/Desktop/MechanicShop/src/MechanicShop.Client/Components/Billings/InvoiceDetails.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xCaWxsaW5nc1xJbnZvaWNlRGV0YWlscy5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/FujiTsu/Desktop/MechanicShop/src/MechanicShop.Client/Components/Customers/CustomersList.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xDdXN0b21lcnNcQ3VzdG9tZXJzTGlzdC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/FujiTsu/Desktop/MechanicShop/src/MechanicShop.Client/Components/DealySchedule/EditWorkOrderLaborDialog.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xEZWFseVNjaGVkdWxlXEVkaXRXb3JrT3JkZXJMYWJvckRpYWxvZy5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/FujiTsu/Desktop/MechanicShop/src/MechanicShop.Client/Components/DealySchedule/EditWorkOrderRepairTaskDialog.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xEZWFseVNjaGVkdWxlXEVkaXRXb3JrT3JkZXJSZXBhaXJUYXNrRGlhbG9nLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/FujiTsu/Desktop/MechanicShop/src/MechanicShop.Client/Components/DealySchedule/RelocateWorkOrderDialog.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xEZWFseVNjaGVkdWxlXFJlbG9jYXRlV29ya09yZGVyRGlhbG9nLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/FujiTsu/Desktop/MechanicShop/src/MechanicShop.Client/Components/DealySchedule/RepairTaskSelector.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xEZWFseVNjaGVkdWxlXFJlcGFpclRhc2tTZWxlY3Rvci5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/FujiTsu/Desktop/MechanicShop/src/MechanicShop.Client/Components/DealySchedule/TimeSlotMarker.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xEZWFseVNjaGVkdWxlXFRpbWVTbG90TWFya2VyLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/FujiTsu/Desktop/MechanicShop/src/MechanicShop.Client/Components/DealySchedule/WorkOrderForm.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xEZWFseVNjaGVkdWxlXFdvcmtPcmRlckZvcm0ucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/FujiTsu/Desktop/MechanicShop/src/MechanicShop.Client/Components/Pages/Home.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xIb21lLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/FujiTsu/Desktop/MechanicShop/src/MechanicShop.Client/Components/Paginator.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdpbmF0b3IucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/FujiTsu/Desktop/MechanicShop/src/MechanicShop.Client/Components/SpotComponent.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xTcG90Q29tcG9uZW50LnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/FujiTsu/Desktop/MechanicShop/src/MechanicShop.Client/Components/TimeSlotDisplayComponent.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xUaW1lU2xvdERpc3BsYXlDb21wb25lbnQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/FujiTsu/Desktop/MechanicShop/src/MechanicShop.Client/Components/WorkOrders/WorkOrderDetails.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xXb3JrT3JkZXJzXFdvcmtPcmRlckRldGFpbHMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/FujiTsu/Desktop/MechanicShop/src/MechanicShop.Client/Components/WorkOrders/WorkOrderList.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xXb3JrT3JkZXJzXFdvcmtPcmRlckxpc3QucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/FujiTsu/Desktop/MechanicShop/src/MechanicShop.Client/Components/_Imports.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xfSW1wb3J0cy5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/FujiTsu/Desktop/MechanicShop/src/MechanicShop.Client/Routes.razor]
+build_metadata.AdditionalFiles.TargetPath = Um91dGVzLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/FujiTsu/Desktop/MechanicShop/src/MechanicShop.Client/_Imports.razor]
+build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/FujiTsu/Desktop/MechanicShop/src/MechanicShop.Client/Components/Dashboard.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xEYXNoYm9hcmQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-l7qyfmtdjr
+
+[C:/Users/FujiTsu/Desktop/MechanicShop/src/MechanicShop.Client/Components/DealySchedule/AvailabilitySlotComponent.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xEZWFseVNjaGVkdWxlXEF2YWlsYWJpbGl0eVNsb3RDb21wb25lbnQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-mgu382ilmb
+
+[C:/Users/FujiTsu/Desktop/MechanicShop/src/MechanicShop.Client/Components/DealySchedule/EditWorkOrderStateDialog.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xEZWFseVNjaGVkdWxlXEVkaXRXb3JrT3JkZXJTdGF0ZURpYWxvZy5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = b-24bf06rayt
+
+[C:/Users/FujiTsu/Desktop/MechanicShop/src/MechanicShop.Client/Components/DealySchedule/Pages/Schedules.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xEZWFseVNjaGVkdWxlXFBhZ2VzXFNjaGVkdWxlcy5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = b-gfovppmtb2
+
+[C:/Users/FujiTsu/Desktop/MechanicShop/src/MechanicShop.Client/Components/LandingPage.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xMYW5kaW5nUGFnZS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = b-2sxdiniymj
+
+[C:/Users/FujiTsu/Desktop/MechanicShop/src/MechanicShop.Client/Components/Layout/MainLayout.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xMYXlvdXRcTWFpbkxheW91dC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = b-d209wfxl4f
+
+[C:/Users/FujiTsu/Desktop/MechanicShop/src/MechanicShop.Client/Components/ReparTasks/RepairTaskList.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xSZXBhclRhc2tzXFJlcGFpclRhc2tMaXN0LnJhem9y
+build_metadata.AdditionalFiles.CssScope = b-xk1c46jz2a
+
+[C:/Users/FujiTsu/Desktop/MechanicShop/src/MechanicShop.Client/Components/TemplatedDialog.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xUZW1wbGF0ZWREaWFsb2cucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-ekrnxfpdlv

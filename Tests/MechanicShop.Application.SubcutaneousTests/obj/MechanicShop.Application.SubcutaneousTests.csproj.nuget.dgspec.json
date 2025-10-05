@@ -1,0 +1,716 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\FujiTsu\\Desktop\\MechanicShop\\Tests\\MechanicShop.Application.SubcutaneousTests\\MechanicShop.Application.SubcutaneousTests.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\FujiTsu\\Desktop\\MechanicShop\\src\\MechanicShop.Api\\MechanicShop.Api.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\FujiTsu\\Desktop\\MechanicShop\\src\\MechanicShop.Api\\MechanicShop.Api.csproj",
+        "projectName": "MechanicShop.Api",
+        "projectPath": "C:\\Users\\FujiTsu\\Desktop\\MechanicShop\\src\\MechanicShop.Api\\MechanicShop.Api.csproj",
+        "packagesPath": "C:\\Users\\FujiTsu\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\FujiTsu\\Desktop\\MechanicShop\\src\\MechanicShop.Api\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\FujiTsu\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {
+              "C:\\Users\\FujiTsu\\Desktop\\MechanicShop\\src\\MechanicShop.Client\\MechanicShop.Client.csproj": {
+                "projectPath": "C:\\Users\\FujiTsu\\Desktop\\MechanicShop\\src\\MechanicShop.Client\\MechanicShop.Client.csproj"
+              },
+              "C:\\Users\\FujiTsu\\Desktop\\MechanicShop\\src\\MechanicShop.Contracts\\MechanicShop.Contracts.csproj": {
+                "projectPath": "C:\\Users\\FujiTsu\\Desktop\\MechanicShop\\src\\MechanicShop.Contracts\\MechanicShop.Contracts.csproj"
+              },
+              "C:\\Users\\FujiTsu\\Desktop\\MechanicShop\\src\\MechanicShop.Infrastructure\\MechanicShop.Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\FujiTsu\\Desktop\\MechanicShop\\src\\MechanicShop.Infrastructure\\MechanicShop.Infrastructure.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.100"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "dependencies": {
+            "Asp.Versioning.Mvc": {
+              "target": "Package",
+              "version": "[8.1.0, )"
+            },
+            "Asp.Versioning.Mvc.ApiExplorer": {
+              "target": "Package",
+              "version": "[8.1.0, )"
+            },
+            "Microsoft.AspNetCore.Components.Web": {
+              "target": "Package",
+              "version": "[9.0.9, )"
+            },
+            "Microsoft.AspNetCore.Components.WebAssembly.Server": {
+              "target": "Package",
+              "version": "[9.0.9, )"
+            },
+            "Microsoft.AspNetCore.OpenApi": {
+              "target": "Package",
+              "version": "[9.0.9, )"
+            },
+            "Scalar.AspNetCore": {
+              "target": "Package",
+              "version": "[2.8.10, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[9.0.6, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.110/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\FujiTsu\\Desktop\\MechanicShop\\src\\MechanicShop.Application\\MechanicShop.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\FujiTsu\\Desktop\\MechanicShop\\src\\MechanicShop.Application\\MechanicShop.Application.csproj",
+        "projectName": "MechanicShop.Application",
+        "projectPath": "C:\\Users\\FujiTsu\\Desktop\\MechanicShop\\src\\MechanicShop.Application\\MechanicShop.Application.csproj",
+        "packagesPath": "C:\\Users\\FujiTsu\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\FujiTsu\\Desktop\\MechanicShop\\src\\MechanicShop.Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\FujiTsu\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {
+              "C:\\Users\\FujiTsu\\Desktop\\MechanicShop\\src\\MechanicShop.Domain\\MechanicShop.Domain.csproj": {
+                "projectPath": "C:\\Users\\FujiTsu\\Desktop\\MechanicShop\\src\\MechanicShop.Domain\\MechanicShop.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.100"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "dependencies": {
+            "FluentValidation.DependencyInjectionExtensions": {
+              "target": "Package",
+              "version": "[12.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[9.0.9, )"
+            },
+            "QuestPDF": {
+              "target": "Package",
+              "version": "[2025.7.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.110/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\FujiTsu\\Desktop\\MechanicShop\\src\\MechanicShop.Client\\MechanicShop.Client.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\FujiTsu\\Desktop\\MechanicShop\\src\\MechanicShop.Client\\MechanicShop.Client.csproj",
+        "projectName": "MechanicShop.Client",
+        "projectPath": "C:\\Users\\FujiTsu\\Desktop\\MechanicShop\\src\\MechanicShop.Client\\MechanicShop.Client.csproj",
+        "packagesPath": "C:\\Users\\FujiTsu\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\FujiTsu\\Desktop\\MechanicShop\\src\\MechanicShop.Client\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\FujiTsu\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {
+              "C:\\Users\\FujiTsu\\Desktop\\MechanicShop\\src\\MechanicShop.Contracts\\MechanicShop.Contracts.csproj": {
+                "projectPath": "C:\\Users\\FujiTsu\\Desktop\\MechanicShop\\src\\MechanicShop.Contracts\\MechanicShop.Contracts.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.100"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "dependencies": {
+            "Blazored.LocalStorage": {
+              "target": "Package",
+              "version": "[4.5.0, )"
+            },
+            "Humanizer": {
+              "target": "Package",
+              "version": "[2.14.1, )"
+            },
+            "Microsoft.AspNetCore.Components.WebAssembly": {
+              "target": "Package",
+              "version": "[9.0.9, )"
+            },
+            "Microsoft.AspNetCore.Components.WebAssembly.Authentication": {
+              "target": "Package",
+              "version": "[9.0.9, )"
+            },
+            "Microsoft.AspNetCore.Components.WebAssembly.DevServer": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[9.0.9, )"
+            },
+            "Microsoft.AspNetCore.SignalR.Client": {
+              "target": "Package",
+              "version": "[9.0.9, )"
+            },
+            "Microsoft.Extensions.Http": {
+              "target": "Package",
+              "version": "[9.0.9, )"
+            },
+            "Microsoft.NET.ILLink.Tasks": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[9.0.9, )",
+              "autoReferenced": true
+            },
+            "Microsoft.NET.Sdk.WebAssembly.Pack": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[9.0.9, )",
+              "autoReferenced": true
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[8.14.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.NETCore.App.Runtime.Mono.browser-wasm",
+              "version": "[9.0.9, 9.0.9]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.110/PortableRuntimeIdentifierGraph.json"
+        }
+      },
+      "runtimes": {
+        "browser-wasm": {
+          "#import": []
+        }
+      }
+    },
+    "C:\\Users\\FujiTsu\\Desktop\\MechanicShop\\src\\MechanicShop.Contracts\\MechanicShop.Contracts.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\FujiTsu\\Desktop\\MechanicShop\\src\\MechanicShop.Contracts\\MechanicShop.Contracts.csproj",
+        "projectName": "MechanicShop.Contracts",
+        "projectPath": "C:\\Users\\FujiTsu\\Desktop\\MechanicShop\\src\\MechanicShop.Contracts\\MechanicShop.Contracts.csproj",
+        "packagesPath": "C:\\Users\\FujiTsu\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\FujiTsu\\Desktop\\MechanicShop\\src\\MechanicShop.Contracts\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\FujiTsu\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.100"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Components.DataAnnotations.Validation": {
+              "target": "Package",
+              "version": "[3.2.0-rc1.20223.4, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.110/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\FujiTsu\\Desktop\\MechanicShop\\src\\MechanicShop.Domain\\MechanicShop.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\FujiTsu\\Desktop\\MechanicShop\\src\\MechanicShop.Domain\\MechanicShop.Domain.csproj",
+        "projectName": "MechanicShop.Domain",
+        "projectPath": "C:\\Users\\FujiTsu\\Desktop\\MechanicShop\\src\\MechanicShop.Domain\\MechanicShop.Domain.csproj",
+        "packagesPath": "C:\\Users\\FujiTsu\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\FujiTsu\\Desktop\\MechanicShop\\src\\MechanicShop.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\FujiTsu\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.100"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "dependencies": {
+            "MediatR": {
+              "target": "Package",
+              "version": "[13.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.110/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\FujiTsu\\Desktop\\MechanicShop\\src\\MechanicShop.Infrastructure\\MechanicShop.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\FujiTsu\\Desktop\\MechanicShop\\src\\MechanicShop.Infrastructure\\MechanicShop.Infrastructure.csproj",
+        "projectName": "MechanicShop.Infrastructure",
+        "projectPath": "C:\\Users\\FujiTsu\\Desktop\\MechanicShop\\src\\MechanicShop.Infrastructure\\MechanicShop.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\FujiTsu\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\FujiTsu\\Desktop\\MechanicShop\\src\\MechanicShop.Infrastructure\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\FujiTsu\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {
+              "C:\\Users\\FujiTsu\\Desktop\\MechanicShop\\src\\MechanicShop.Application\\MechanicShop.Application.csproj": {
+                "projectPath": "C:\\Users\\FujiTsu\\Desktop\\MechanicShop\\src\\MechanicShop.Application\\MechanicShop.Application.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.100"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[9.0.9, )"
+            },
+            "Microsoft.AspNetCore.Authorization": {
+              "target": "Package",
+              "version": "[9.0.9, )"
+            },
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[9.0.9, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[9.0.9, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[9.0.9, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[9.0.9, )"
+            },
+            "Microsoft.Extensions.Caching.Hybrid": {
+              "target": "Package",
+              "version": "[9.9.0, )"
+            },
+            "Serilog.AspNetCore": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "Serilog.Sinks.Seq": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.110/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\FujiTsu\\Desktop\\MechanicShop\\Tests\\MechanicShop.Application.SubcutaneousTests\\MechanicShop.Application.SubcutaneousTests.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\FujiTsu\\Desktop\\MechanicShop\\Tests\\MechanicShop.Application.SubcutaneousTests\\MechanicShop.Application.SubcutaneousTests.csproj",
+        "projectName": "MechanicShop.Application.SubcutaneousTests",
+        "projectPath": "C:\\Users\\FujiTsu\\Desktop\\MechanicShop\\Tests\\MechanicShop.Application.SubcutaneousTests\\MechanicShop.Application.SubcutaneousTests.csproj",
+        "packagesPath": "C:\\Users\\FujiTsu\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\FujiTsu\\Desktop\\MechanicShop\\Tests\\MechanicShop.Application.SubcutaneousTests\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\FujiTsu\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {
+              "C:\\Users\\FujiTsu\\Desktop\\MechanicShop\\src\\MechanicShop.Api\\MechanicShop.Api.csproj": {
+                "projectPath": "C:\\Users\\FujiTsu\\Desktop\\MechanicShop\\src\\MechanicShop.Api\\MechanicShop.Api.csproj"
+              },
+              "C:\\Users\\FujiTsu\\Desktop\\MechanicShop\\Tests\\MechanicShop.Tests.Common\\MechanicShop.Tests.Common.csproj": {
+                "projectPath": "C:\\Users\\FujiTsu\\Desktop\\MechanicShop\\Tests\\MechanicShop.Tests.Common\\MechanicShop.Tests.Common.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.100"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Mvc.Testing": {
+              "target": "Package",
+              "version": "[9.0.9, )"
+            },
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[17.12.0, )"
+            },
+            "Testcontainers.MsSql": {
+              "target": "Package",
+              "version": "[4.7.0, )"
+            },
+            "coverlet.collector": {
+              "target": "Package",
+              "version": "[6.0.2, )"
+            },
+            "xunit": {
+              "target": "Package",
+              "version": "[2.9.2, )"
+            },
+            "xunit.runner.visualstudio": {
+              "target": "Package",
+              "version": "[2.8.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.110/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\FujiTsu\\Desktop\\MechanicShop\\Tests\\MechanicShop.Tests.Common\\MechanicShop.Tests.Common.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\FujiTsu\\Desktop\\MechanicShop\\Tests\\MechanicShop.Tests.Common\\MechanicShop.Tests.Common.csproj",
+        "projectName": "MechanicShop.Tests.Common",
+        "projectPath": "C:\\Users\\FujiTsu\\Desktop\\MechanicShop\\Tests\\MechanicShop.Tests.Common\\MechanicShop.Tests.Common.csproj",
+        "packagesPath": "C:\\Users\\FujiTsu\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\FujiTsu\\Desktop\\MechanicShop\\Tests\\MechanicShop.Tests.Common\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\FujiTsu\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {
+              "C:\\Users\\FujiTsu\\Desktop\\MechanicShop\\src\\MechanicShop.Infrastructure\\MechanicShop.Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\FujiTsu\\Desktop\\MechanicShop\\src\\MechanicShop.Infrastructure\\MechanicShop.Infrastructure.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.100"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "dependencies": {
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[17.12.0, )"
+            },
+            "coverlet.collector": {
+              "target": "Package",
+              "version": "[6.0.2, )"
+            },
+            "xunit": {
+              "target": "Package",
+              "version": "[2.9.2, )"
+            },
+            "xunit.runner.visualstudio": {
+              "target": "Package",
+              "version": "[2.8.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.110/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
