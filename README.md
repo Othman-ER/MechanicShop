@@ -343,7 +343,7 @@ This project demonstrates:
 
 ## 👤 Author
 
-**Othman Er-Royidi**
+**Othman Er-Rouydi**
 - Email: erothman15er@gmail.com
 - Location: Martil, Morocco
 - GitHub: [@yourusername](https://github.com/Othman-ER)
