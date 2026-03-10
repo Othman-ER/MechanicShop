@@ -1,7 +1,7 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
     <PropertyGroup>
-        <TargetFramework>net9.0</TargetFramework>
+        <TargetFramework>net10.0</TargetFramework>
         <ImplicitUsings>enable</ImplicitUsings>
         <Nullable>enable</Nullable>
         <IsPackable>false</IsPackable>
@@ -19,47 +19,47 @@
     </ItemGroup>
 
 <!--    <ItemGroup>-->
-<!--      <Content Include="bin\Debug\net9.0\LatoFont\Lato-Black.ttf" />-->
-<!--      <Content Include="bin\Debug\net9.0\LatoFont\Lato-BlackItalic.ttf" />-->
-<!--      <Content Include="bin\Debug\net9.0\LatoFont\Lato-Bold.ttf" />-->
-<!--      <Content Include="bin\Debug\net9.0\LatoFont\Lato-BoldItalic.ttf" />-->
-<!--      <Content Include="bin\Debug\net9.0\LatoFont\Lato-ExtraBold.ttf" />-->
-<!--      <Content Include="bin\Debug\net9.0\LatoFont\Lato-ExtraBoldItalic.ttf" />-->
-<!--      <Content Include="bin\Debug\net9.0\LatoFont\Lato-ExtraLight.ttf" />-->
-<!--      <Content Include="bin\Debug\net9.0\LatoFont\Lato-ExtraLightItalic.ttf" />-->
-<!--      <Content Include="bin\Debug\net9.0\LatoFont\Lato-Italic.ttf" />-->
-<!--      <Content Include="bin\Debug\net9.0\LatoFont\Lato-Light.ttf" />-->
-<!--      <Content Include="bin\Debug\net9.0\LatoFont\Lato-LightItalic.ttf" />-->
-<!--      <Content Include="bin\Debug\net9.0\LatoFont\Lato-Medium.ttf" />-->
-<!--      <Content Include="bin\Debug\net9.0\LatoFont\Lato-MediumItalic.ttf" />-->
-<!--      <Content Include="bin\Debug\net9.0\LatoFont\Lato-Regular.ttf" />-->
-<!--      <Content Include="bin\Debug\net9.0\LatoFont\Lato-SemiBold.ttf" />-->
-<!--      <Content Include="bin\Debug\net9.0\LatoFont\Lato-SemiBoldItalic.ttf" />-->
-<!--      <Content Include="bin\Debug\net9.0\LatoFont\Lato-Thin.ttf" />-->
-<!--      <Content Include="bin\Debug\net9.0\LatoFont\Lato-ThinItalic.ttf" />-->
-<!--      <Content Include="bin\Debug\net9.0\LatoFont\OFL.txt" />-->
-<!--      <Content Include="bin\Debug\net9.0\MechanicShop.Application.dll" />-->
-<!--      <Content Include="bin\Debug\net9.0\MechanicShop.Application.pdb" />-->
-<!--      <Content Include="bin\Debug\net9.0\MechanicShop.Domain.dll" />-->
-<!--      <Content Include="bin\Debug\net9.0\MechanicShop.Domain.pdb" />-->
-<!--      <Content Include="bin\Debug\net9.0\MechanicShop.Infastructure.dll" />-->
-<!--      <Content Include="bin\Debug\net9.0\MechanicShop.Infastructure.pdb" />-->
-<!--      <Content Include="bin\Debug\net9.0\MechanicShop.tests.Common.deps.json" />-->
-<!--      <Content Include="bin\Debug\net9.0\MechanicShop.tests.Common.dll" />-->
-<!--      <Content Include="bin\Debug\net9.0\MechanicShop.tests.Common.pdb" />-->
-<!--      <Content Include="bin\Debug\net9.0\MechanicShop.tests.Common.runtimeconfig.json" />-->
-<!--      <Content Include="obj\Debug\net9.0\Mechanic.81A43C75.Up2Date" />-->
-<!--      <Content Include="obj\Debug\net9.0\MechanicShop.tests.Common.AssemblyInfoInputs.cache" />-->
-<!--      <Content Include="obj\Debug\net9.0\MechanicShop.tests.Common.assets.cache" />-->
-<!--      <Content Include="obj\Debug\net9.0\MechanicShop.tests.Common.csproj.AssemblyReference.cache" />-->
-<!--      <Content Include="obj\Debug\net9.0\MechanicShop.tests.Common.csproj.CoreCompileInputs.cache" />-->
-<!--      <Content Include="obj\Debug\net9.0\MechanicShop.tests.Common.csproj.FileListAbsolute.txt" />-->
-<!--      <Content Include="obj\Debug\net9.0\MechanicShop.tests.Common.dll" />-->
-<!--      <Content Include="obj\Debug\net9.0\MechanicShop.tests.Common.GeneratedMSBuildEditorConfig.editorconfig" />-->
-<!--      <Content Include="obj\Debug\net9.0\MechanicShop.tests.Common.genruntimeconfig.cache" />-->
-<!--      <Content Include="obj\Debug\net9.0\MechanicShop.tests.Common.pdb" />-->
-<!--      <Content Include="obj\Debug\net9.0\refint\MechanicShop.tests.Common.dll" />-->
-<!--      <Content Include="obj\Debug\net9.0\ref\MechanicShop.tests.Common.dll" />-->
+<!--      <Content Include="bin\Debug\net10.0\LatoFont\Lato-Black.ttf" />-->
+<!--      <Content Include="bin\Debug\net10.0\LatoFont\Lato-BlackItalic.ttf" />-->
+<!--      <Content Include="bin\Debug\net10.0\LatoFont\Lato-Bold.ttf" />-->
+<!--      <Content Include="bin\Debug\net10.0\LatoFont\Lato-BoldItalic.ttf" />-->
+<!--      <Content Include="bin\Debug\net10.0\LatoFont\Lato-ExtraBold.ttf" />-->
+<!--      <Content Include="bin\Debug\net10.0\LatoFont\Lato-ExtraBoldItalic.ttf" />-->
+<!--      <Content Include="bin\Debug\net10.0\LatoFont\Lato-ExtraLight.ttf" />-->
+<!--      <Content Include="bin\Debug\net10.0\LatoFont\Lato-ExtraLightItalic.ttf" />-->
+<!--      <Content Include="bin\Debug\net10.0\LatoFont\Lato-Italic.ttf" />-->
+<!--      <Content Include="bin\Debug\net10.0\LatoFont\Lato-Light.ttf" />-->
+<!--      <Content Include="bin\Debug\net10.0\LatoFont\Lato-LightItalic.ttf" />-->
+<!--      <Content Include="bin\Debug\net10.0\LatoFont\Lato-Medium.ttf" />-->
+<!--      <Content Include="bin\Debug\net10.0\LatoFont\Lato-MediumItalic.ttf" />-->
+<!--      <Content Include="bin\Debug\net10.0\LatoFont\Lato-Regular.ttf" />-->
+<!--      <Content Include="bin\Debug\net10.0\LatoFont\Lato-SemiBold.ttf" />-->
+<!--      <Content Include="bin\Debug\net10.0\LatoFont\Lato-SemiBoldItalic.ttf" />-->
+<!--      <Content Include="bin\Debug\net10.0\LatoFont\Lato-Thin.ttf" />-->
+<!--      <Content Include="bin\Debug\net10.0\LatoFont\Lato-ThinItalic.ttf" />-->
+<!--      <Content Include="bin\Debug\net10.0\LatoFont\OFL.txt" />-->
+<!--      <Content Include="bin\Debug\net10.0\MechanicShop.Application.dll" />-->
+<!--      <Content Include="bin\Debug\net10.0\MechanicShop.Application.pdb" />-->
+<!--      <Content Include="bin\Debug\net10.0\MechanicShop.Domain.dll" />-->
+<!--      <Content Include="bin\Debug\net10.0\MechanicShop.Domain.pdb" />-->
+<!--      <Content Include="bin\Debug\net10.0\MechanicShop.Infastructure.dll" />-->
+<!--      <Content Include="bin\Debug\net10.0\MechanicShop.Infastructure.pdb" />-->
+<!--      <Content Include="bin\Debug\net10.0\MechanicShop.tests.Common.deps.json" />-->
+<!--      <Content Include="bin\Debug\net10.0\MechanicShop.tests.Common.dll" />-->
+<!--      <Content Include="bin\Debug\net10.0\MechanicShop.tests.Common.pdb" />-->
+<!--      <Content Include="bin\Debug\net10.0\MechanicShop.tests.Common.runtimeconfig.json" />-->
+<!--      <Content Include="obj\Debug\net10.0\Mechanic.81A43C75.Up2Date" />-->
+<!--      <Content Include="obj\Debug\net10.0\MechanicShop.tests.Common.AssemblyInfoInputs.cache" />-->
+<!--      <Content Include="obj\Debug\net10.0\MechanicShop.tests.Common.assets.cache" />-->
+<!--      <Content Include="obj\Debug\net10.0\MechanicShop.tests.Common.csproj.AssemblyReference.cache" />-->
+<!--      <Content Include="obj\Debug\net10.0\MechanicShop.tests.Common.csproj.CoreCompileInputs.cache" />-->
+<!--      <Content Include="obj\Debug\net10.0\MechanicShop.tests.Common.csproj.FileListAbsolute.txt" />-->
+<!--      <Content Include="obj\Debug\net10.0\MechanicShop.tests.Common.dll" />-->
+<!--      <Content Include="obj\Debug\net10.0\MechanicShop.tests.Common.GeneratedMSBuildEditorConfig.editorconfig" />-->
+<!--      <Content Include="obj\Debug\net10.0\MechanicShop.tests.Common.genruntimeconfig.cache" />-->
+<!--      <Content Include="obj\Debug\net10.0\MechanicShop.tests.Common.pdb" />-->
+<!--      <Content Include="obj\Debug\net10.0\refint\MechanicShop.tests.Common.dll" />-->
+<!--      <Content Include="obj\Debug\net10.0\ref\MechanicShop.tests.Common.dll" />-->
 <!--      <Content Include="obj\MechanicShop.tests.Common.csproj.nuget.dgspec.json" />-->
 <!--      <Content Include="obj\MechanicShop.tests.Common.csproj.nuget.g.props" />-->
 <!--      <Content Include="obj\MechanicShop.tests.Common.csproj.nuget.g.targets" />-->
@@ -68,9 +68,9 @@
 <!--    </ItemGroup>-->
 
 <!--    <ItemGroup>-->
-<!--      <Compile Include="obj\Debug\net9.0\.NETCoreApp,Version=v9.0.AssemblyAttributes.cs" />-->
-<!--      <Compile Include="obj\Debug\net9.0\MechanicShop.tests.Common.AssemblyInfo.cs" />-->
-<!--      <Compile Include="obj\Debug\net9.0\MechanicShop.tests.Common.GlobalUsings.g.cs" />-->
+<!--      <Compile Include="obj\Debug\net10.0\.NETCoreApp,Version=v9.0.AssemblyAttributes.cs" />-->
+<!--      <Compile Include="obj\Debug\net10.0\MechanicShop.tests.Common.AssemblyInfo.cs" />-->
+<!--      <Compile Include="obj\Debug\net10.0\MechanicShop.tests.Common.GlobalUsings.g.cs" />-->
 <!--    </ItemGroup>-->
 
     <ItemGroup>
