@@ -12,6 +12,6 @@ public sealed class ApplicationDbContextFactory : IDesignTimeDbContextFactory<Ap
         var optionsBuilder = new DbContextOptionsBuilder<AppDbContext>();
         optionsBuilder.UseSqlServer("Server = .; Database = MechanicShop_DB; Trusted_Connection=True; MultipleActiveResultSets = true; TrustServerCertificate = True;");
         
-         return new AppDbContext(optionsBuilder.Options, null);
+         return new AppDbContext(optionsBuilder.Options, null!);
      }
 }
